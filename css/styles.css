@@ -1,0 +1,51 @@
+:root {
+    --primary-color: #141414;
+    --secondary-color: #576F35;
+
+    --brown-color: #BEA69E;
+
+    --bg1-color: #576F35;
+    --bg2-color: #7A3145;
+    --white-color: #FBFBFB;
+    --button-bg-color:  var(--bg2-color);
+    --button-hover-color: #622133;
+    --button-hover-color2: var(--white-color);
+    --button-text-color: #212121;
+    --text-color: var(--white-color);
+    --text-hover-color: var(--brown-color);
+}
+
+/* General styles */
+*, 
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* General Usage */
+
+
+
+/* Hero Section */
+
+
+/* How It Works */
+
+
+/* Discount */
+
+
+/* Reviews */
+
+
+/* Order */
+
+
+/* Footer */
+
+
+
+
+/* EOF */
