@@ -121,8 +121,6 @@ body {
   padding: 100px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 .review-section-title {
   text-transform: uppercase;
