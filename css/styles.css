@@ -60,57 +60,57 @@ body {
     gap: 50px;
 }
 .vegetables-block {
-    display: flex;
-    flex-direction: column;
-    gap: 25px;
-    }
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
 .vegetables-h {
-    font-weight: 600;
-    text-transform: uppercase;
-    color: #fbfbfb;
-    font-size: 4em;
-    line-height: 4rem;
-    max-width: 508px;
-    }
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #fbfbfb;
+  font-size: 4em;
+  line-height: 4rem;
+  max-width: 508px;
+  }
 .vegetables-h-span {
-    opacity: 0.3;
-    }
+  opacity: 0.3;
+  }
 .vegetables-p {
-    font-weight: 500;
-    line-height: 1.5rem;
-    color: #fbfbfb;
-    max-width: 626px;
-    }
+  font-weight: 500;
+  line-height: 1.5rem;
+  color: #fbfbfb;
+  max-width: 626px;
+  }
 .vegetables-cards-list {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    gap: 21px;
-    max-width: 1080px;
-    justify-content: center;
-    }
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 21px;
+  max-width: 1080px;
+  justify-content: center;
+  }
 .vegetables-cards-list-item {
-    background-color: #fbfbfb;
-    border-radius: 40px;
-    padding: 32px;
-    }
+  background-color: #fbfbfb;
+  border-radius: 40px;
+  padding: 32px;
+  }
 .vegetables-cards-p {
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-    }
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  }
 .vegetable-name {
-    font-weight: 600;
-    font-size: 2rem;
-    line-height: 2rem;
-    color: #7A3145;
-    }
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 2rem;
+  color: #7A3145;
+  }
 .vegetable-price {
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 18px;
-    color: #141414;
-    }
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  color: #141414;
+}
 
 
 /* Reviews */
@@ -118,11 +118,9 @@ body {
   background-color: var(--white-color);
   color: var(--primary-color);
   text-align: center;
-  padding: 20px 0;
+  padding: 100px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 .review-section-title {
   text-transform: uppercase;
@@ -136,15 +134,13 @@ body {
 
 }
 .review-title-list {
-    display: flex;
-    flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  display: flex;
+  flex-direction: column;
   gap: 25px;
 }
 .title-color-span {
-    color: var(--bg1-color);
-    text-transform: uppercase;
+  color: var(--bg1-color);
+  text-transform: uppercase;
 }
 .review-description {
   font-family: "Inter", sans-serif;
@@ -159,7 +155,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: center;
-    align-items: center;
+  align-items: center;
   background-color: var(--white-color);
 
 }
@@ -167,10 +163,10 @@ body {
 .review-card-item {
   display: flex;
   flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  justify-content: center;
+  align-items: center;
   border: 1px solid #7A31454D;
-    background: #FBFBFB;
+  background: #FBFBFB;
   padding: 20px;
   border-radius: 24px;
   opacity: 0px;
@@ -178,8 +174,8 @@ body {
   
 }
 .review-card {
-    border-radius: 10px;
-    display: flex;
+  border-radius: 10px;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;

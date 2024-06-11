@@ -5,23 +5,6 @@
 
 
 
-    /* Review section */
-    .review-container {
-        align-items: flex-start;
-        margin: 0 25px;
-    }
-    .review-title-list {
-        gap: 20px;
-    }
-    .review-cards {
-        gap: 25px;
-        overflow: hidden;
-    }
-    .review-description {
-        margin-bottom: 40px;
-    }
-
-
     /* Vegetables */
 
 
@@ -53,6 +36,24 @@
     .vegetables-p {
         font-size: 14px;
         line-height: 18px;
+    }
+
+    
+    
+    /* Review section */
+    .review-container {
+        align-items: flex-start;
+        margin: 0 25px;
+    }
+    .review-title-list {
+        gap: 20px;
+    }
+    .review-cards {
+        gap: 25px;
+        overflow: hidden;
+    }
+    .review-description {
+        margin-bottom: 40px;
     }
 }
 /* EOF */

@@ -9,13 +9,12 @@
 
     /* Review section */
     .review-container {
+        justify-content: center;
         align-items: flex-start;
-        margin: 0 25px;
+        margin: 0 auto;
     }
     .review-title {
         width: 50%;
-        margin-top: 100px;
-        margin-left: 100px;
     }
 
     .review-description {
@@ -23,8 +22,6 @@
     }
     .review-cards {
         gap: 25px;
-        margin-bottom: 100px;
-        margin-left: 100px;
 
     }
 
