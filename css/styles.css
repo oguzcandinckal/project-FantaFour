@@ -50,7 +50,7 @@ a {
 
 
 /* Reviews */
-.review {
+.review-container {
   background-color: var(--white-color);
   color: var(--primary-color);
   text-align: center;
@@ -60,7 +60,7 @@ a {
   justify-content: center;
   align-items: center;
 }
-.review h2 {
+.review-container h2 {
   text-transform: uppercase;
   text-align: left;
 }
