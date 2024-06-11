@@ -60,14 +60,37 @@ a {
   justify-content: center;
   align-items: center;
 }
-.review-container h2 {
+.review-section-title {
   text-transform: uppercase;
   text-align: left;
+  font-family: "Inter", sans-serif;
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 64px;
+  letter-spacing: -0.015em;
+  gap: 25px;
+
+}
+.review-title-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
 }
 .title-color-span {
     color: var(--bg1-color);
     text-transform: uppercase;
 }
+.review-description {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: left;
+  
+}
+
 .review-cards {
   display: flex;
   flex-direction: row;
@@ -104,11 +127,11 @@ a {
   border-radius: 50%;
   margin-bottom: 20px;
 }
-.review-card h3 {
+.review-card-customer-name {
   color: var(--primary-color);
   text-transform: capitalize;
 }
-.review-card p {
+.review-card-review {
   color: #14141466;
   font-family: "Inter", sans-serif;
   font-size: 16px;
