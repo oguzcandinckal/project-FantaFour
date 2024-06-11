@@ -1,13 +1,13 @@
 :root {
     --primary-color: #141414;
-    --secondary-color: #576F35;
+    --secondary-color: #576f35;
 
-    --brown-color: #BEA69E;
+    --brown-color: #bea69e;
 
-    --bg1-color: #576F35;
-    --bg2-color: #7A3145;
-    --white-color: #FBFBFB;
-    --button-bg-color:  var(--bg2-color);
+    --bg1-color: #576f35;
+    --bg2-color: #7a3145;
+    --white-color: #fbfbfb;
+    --button-bg-color: var(--bg2-color);
     --button-hover-color: #622133;
     --button-hover-color2: var(--white-color);
     --button-text-color: #212121;
@@ -16,45 +16,105 @@
 }
 
 /* General styles */
-*, 
+*,
 *::before,
 *::after {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 /* General Usage */
-
-
+ul {
+    list-style-type: none;
+}
+body {
+    font-family: "Inter Tight", sans-serif;
+    font-size: 16px;
+}
 
 /* Hero Section */
 
-
 /* How It Works */
 
-
 /* Discount */
+
+/* Veggies */
+.vegetables-container {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--bg2-color);
+    padding: 100px;
+    gap: 50px;
+}
+.vegetables-block {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    }
+.vegetables-h {
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fbfbfb;
+    font-size: 4em;
+    line-height: 4rem;
+    max-width: 508px;
+    }
+.vegetables-h-span {
+    opacity: 0.3;
+    }
+.vegetables-p {
+    font-weight: 500;
+    line-height: 1.5rem;
+    color: #fbfbfb;
+    max-width: 626px;
+    }
+.vegetables-cards-list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 21px;
+    max-width: 1080px;
+    justify-content: center;
+    }
+.vegetables-cards-list-item {
+    background-color: #fbfbfb;
+    border-radius: 40px;
+    padding: 32px;
+    }
+.vegetables-cards-p {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    }
+.vegetable-name {
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 2rem;
+    color: #7A3145;
+    }
+.vegetable-price {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    color: #141414;
+    }
 
 
 /* Reviews */
 .review {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 2rem;
-  background-color: var(--bg1-color);
-  border-radius: 10px;
-  margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    background-color: var(--bg1-color);
+    border-radius: 10px;
+    margin: 1rem;
 }
 
 /* Order */
 
-
 /* Footer */
-
-
-
 
 /* EOF */
