@@ -8,10 +8,27 @@
 
 
 
-
-    .review-card-item {
+    /* Review section */
+    .review-container {
+        align-items: flex-start;
         margin: 0 25px;
     }
+    .review-title {
+        width: 50%;
+        margin-top: 100px;
+        margin-left: 100px;
+    }
+
+    .review-description {
+        margin-bottom: 50px;
+    }
+    .review-cards {
+        gap: 25px;
+        margin-bottom: 100px;
+        margin-left: 100px;
+
+    }
+
 
 }
 /* EOF */
