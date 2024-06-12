@@ -201,6 +201,276 @@ body {
 }
 /* Order */
 
+.order-box {
+  display: flex;
+  flex-direction: column;
+  height: 977px;
+  background-color: #7A3145; 
+  
+ }
+
+.order-title-text {
+  display: flex;
+  flex-direction: column;
+  color: #FBFBFB;
+  height: 193px;  
+  margin-top: 100px;
+  margin-left: 100px;
+  font-weight: 600;
+  letter-spacing: -1.5%;
+  font-style: normal;
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-bottom: 0px;
+}
+
+.order-title {
+  text-transform:uppercase;
+  color: #FBFBFB;
+  margin: 0px;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 1;
+  letter-spacing: -0.015em;
+  width: 751px;
+
+}
+
+.order-title-span {
+  opacity: 30%;
+}
+
+.order-text {
+  display: flex;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.25;
+  text-align: left;
+  width: 742px;
+  height: 40px;
+  margin-top: 25px;
+  
+}
+
+.order-form-social-box {
+  display: flex;
+}
+
+.order-form {
+  width: 529px;
+  height: 534px;
+  padding: 50px;
+  gap: 10px;
+  border-radius: 30px;
+  opacity: 0px;
+  background-color: #FBFBFB;
+  text-align: center;
+  margin-top: 50px;
+  margin-left: 100px;
+}
+
+.order-form-text {
+text-transform: uppercase;
+font-size: 24px;
+font-weight: 600;
+line-height: 26px;
+letter-spacing: -0.015em;
+text-align: left;
+margin-bottom: 50px;
+
+}
+
+.order-form-span-from-us {
+  color: #7A3145;
+  
+}
+
+.order-form-one-span-the-form {
+  color:#576F35;
+  
+}
+
+.order-form-input {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  background: #FBFBFB;
+
+}
+
+.order-form-input-text {
+width: 429px;
+height: 52px;
+padding-top: 16px;
+padding-left: 16px;
+padding-bottom: 16px;
+gap: 10px;
+border-radius: 30px;
+border: 1px solid #14141433;
+background: transparent;
+
+}
+
+.order-form-input-email {
+width: 429px;
+height: 52px;
+padding-top: 16px;
+padding-left: 16px;
+padding-bottom: 16px;
+gap: 10px;
+border-radius: 30px;
+border: 1px solid #14141433;
+background: transparent;
+}
+
+.text-valid,
+.text-invalid {
+  font-size: 14px;
+  padding-left: 20px;
+  margin-top: 4px;
+  display: none;
+}
+
+.order-form-input-email:not(:placeholder-shown):invalid {
+  border-color: #E74A3B;
+}
+
+.order-form-input-email:not(:placeholder-shown):valid {
+  border-color: #3CBC81;
+}
+
+.order-form-input-email:hover{
+  border-color: #7A3145;
+}
+
+.text-valid {
+  color: #3CBC81;
+}
+
+.text-invalid {
+  color: #E74A3B;
+}
+
+.order-form-input-email:not(:placeholder-shown):invalid ~ .text-invalid {
+  display: block;
+}
+
+.order-form-input-email::placeholder {
+  color: #141414;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  }
+
+.order-form-input-text::placeholder {
+color: #141414;
+font-size: 16px;
+font-weight: 500;
+line-height: 1.25;
+letter-spacing: -0.02em;
+}
+
+.order-form-textarea {
+  width: 429px;
+  height: 95px;
+  padding-top: 16px;
+  padding-left: 16px;
+  border-radius: 15px;
+  border: 1px solid #14141433;
+  background-color: transparent;
+  }
+
+
+.order-form-textarea::placeholder {
+color: #141414;
+font-size: 16px;
+font-weight: 500;
+line-height: 1.25;
+letter-spacing: -0.02em;
+}
+
+
+.order-form-button {
+margin-top: 25px;
+width: 429px;
+height: 52px;
+padding: 16px 191px 16px 191px;
+border-radius: 30px;
+background-color:#576F35;
+color: #FBFBFB;
+border: none;
+
+}
+
+.order-form-social-box {
+  display: flex;
+  gap: 24px;
+
+}
+
+
+.order-social-box {
+padding: 50px;
+background-color: #576F35;
+width: 527px;
+height: 534px;
+gap: 50px;
+border-radius: 30px;
+margin-top: 50px;
+}
+
+.order-social-text {
+  margin-left: 0px;
+  margin-top: 50px;
+  width: 357px;
+  height: 111px;
+}
+
+
+.order-social-ul {
+  display: flex;
+  flex-wrap: wrap;
+  width: 357px;
+  height: 76px;
+  margin-top: 15px;
+  gap: 12px;
+ 
+}
+
+.order-social-p {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: -0.015em;
+  text-align: left;
+  color:#FBFBFB80;
+  opacity: 50%;
+
+}
+
+.order-social-link {
+font-size: 32px;
+font-weight: 600;
+line-height: 1;
+letter-spacing: -0.015em;
+text-align: left;
+color: #FBFBFB;
+margin-right: 12px;
+
+}
+
+.order-social-slash {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: -0.015em;
+  text-align: left;
+  color: #FBFBFB;
+
+}
+
+
 /* Footer */
 
 /* EOF */
